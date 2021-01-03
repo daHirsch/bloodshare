@@ -84,7 +84,7 @@
                     </div>
                 </nav>
             </div>
-            <div id="layoutSidenav_content">
+             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid">
                         <h1 class="mt-4">Terminauswahl</h1>
@@ -96,31 +96,32 @@
 						
 						
 						
-						
+						<!-- Special version of Bootstrap that only affects content wrapped in .bootstrap-iso -->
 									<link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" /> 
 
-
+ <br>
 									<!-- HTML Form (wrapped in a .bootstrap-iso div) -->
 									<div class="bootstrap-iso">
 									 <div class="container-fluid">
 									  <div class="row">
-									   <div class="col-md-6 col-sm-6 col-xs-12">
+									   <div class="col-md-8 col-sm-12 col-xs-12">
 										<form class="form-horizontal" method="post">
 										 <div class="form-group ">
 										 
 										 <h4 class="section-subheading text-muted">Bitte wählen Sie einen freien Termin und wählen Sie eine Uhrzeit zwischen 06:00 - 20:00 Uhr</h4>
-										  <label class="control-label col-sm-3" for="date">
+										   <br>
+										  <label class="control-label col-sm-2" for="date">
 										   Datum & Uhrzeit
 										  </label>
-										  <div class="col-sm-9">
+										  <div class="col-sm-9 col-xs-12">
 										   <input class="form-control" type="datetime-local" id="start" name="trip-start" value="2021-01-01" min="2021-01-01T06:00" max="2022-01-01T20:00" >
 										  </div>
 										 </div>
 										 <div class="form-group ">
-										  <label class="control-label col-sm-3" for="Nachricht">
+										  <label class="control-label col-sm-2" for="Nachricht">
 										   Pers&ouml;nliche Nachricht
 										  </label>
-										  <div class="col-sm-9">
+										  <div class="col-sm-9 col-xs-12">
 										   <textarea class="form-control" cols="40" id="Nachricht" name="Nachricht" rows="10"></textarea>
 										  </div>
 										 </div>
@@ -132,6 +133,33 @@
 										  </div>
 										 </div>
 										</form>
+									   </div>
+									   
+									    <div class="col-md-4 col-xs-12">
+											
+											
+										 <br> <br> <br>
+										 
+												 <h4 class="section-subheading text-muted">Allgemeine Öffnungszeiten</h4>
+												 <br>
+												<dl class="row">
+													<dt class="col-sm-3">Montag</dt>
+													<dd class="col-sm-9">06:00 - 20:00 Uhr</dd>
+													<dt class="col-sm-3 ">Dienstag</dt>
+													<dd class="col-sm-9">06:00 - 20:00 Uhr</dd>
+													<dt class="col-sm-3 ">Mittwoch</dt>
+													<dd class="col-sm-9">06:00 - 20:00 Uhr</dd>
+													<dt class="col-sm-3">Donnerstag</dt>
+													<dd class="col-sm-9">06:00 - 20:00 Uhr</dd>
+													<dt class="col-sm-3 ">Freitag</dt>
+													<dd class="col-sm-9">06:00 - 20:00 Uhr</dd>
+													<dt class="col-sm-3 ">Samstag</dt>
+													<dd class="col-sm-9">08:00 - 19:00 Uhr</dd>
+													<dt class="col-sm-3 ">Sonntag</dt>
+													<dd class="col-sm-9">08:00 - 19:00 Uhr</dd>
+												</dl>
+										 
+										
 									   </div>
 									  </div>
 									 </div>
