@@ -1,7 +1,7 @@
-wellkommen zum Projkt Bloodshare!
-wenn Sie Fehler gefunden haben und sie Beheben wollen oder eine gewünschte Funktionalität haben möchten
-versuchen Sie zunächst in den Issues zu lesen um sicherzustellen, dass dieser Fehler noch nicht diskutieret wurde,
-falls Sie in den Issues nichts relevantes gefunden haben, erstellen Sie Bitte eine neue Issue und nennen Sie diese Entsprechend dem Fehler bzw. Ihrem Wunsch.
-Bitte beschreiben sie den Fehler genau und Falls möglich mit Beispielen und geben Sie Ihre Idee zur lösung bekannt, dasselbe gilt auch für Ihre wünsche.
-Ihre Ideen werden von den Teammitgliedern diskutiert und es wird schließlisch darüber Entschieden, ob die Änderung vorgenommen sollen oder nicht.
-Bitte dokumentiere Sie die Entwicklung Ihres Codes in der Kanban Tabelle.  
+Willkommen zum Projekt Bloodshare!
+wenn Ihr Fehler gefunden habt und sie beheben wollt oder ihr eine gewünschte Funktionalität haben möchten
+versucht zunächst in den Issues nachlesen um sicherzustellen, dass dieser Fehler noch nicht diskutiert wurde.
+Falls ihr in den Issues nichts relevantes gefunden habt, erstellt bitte ein neues Issue und nennt  entsprechend den Fehler bzw. den Wunsch.
+Bitte beschreibt den Fehler genau und falls möglich mit Beispielen und gebt eure Idee zur lösung bekannt, dasselbe gilt auch für eure Wünsche.
+Eure Ideen werden von allen Teammitgliedern diskutiert und es wird schließlisch darüber entschieden, ob die Änderung sinnvoll ist oder nicht.
+Bitte dokumentiert die Entwicklung Ihres Codes in der Kanban Tabelle.  
