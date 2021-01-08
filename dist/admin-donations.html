@@ -40,7 +40,7 @@
                 <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
                     <div class="sb-sidenav-menu">
                         <div class="nav">
-							<a class="nav-link" href="admin-dashboard.html">
+                            <a class="nav-link" href="admin-dashboard.html">
                                 <div class="sb-nav-link-icon"><i class="fas fa-home"></i></div>
                                 Home
                             </a>
@@ -48,28 +48,20 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-calendar"></i></div>
                                 Laufende Spenden
                             </a>
+                            <a class="nav-link" href="admin-donations.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-history"></i></div>
+                                Vergangene Spenden
+                            </a>
                            <a class="nav-link" href="admin-new-donation.html">
                                 <div class="sb-nav-link-icon"><i class="fas fa-plus-circle"></i></div>
                                 Neue Spendenaktion
                             </a>
-                           
-                            
-                            <!--<div class="sb-sidenav-menu-heading">Spenden</div>
-                            <a class="nav-link" href="historie.html">
-                                <div class="sb-nav-link-icon"><i class="fas fa-history"></i></div>
-                                Historie
-                            </a>
-                            <a class="nav-link" href="tables.html">
-                                <div class="sb-nav-link-icon"><i class="fas fa-calendar"></i></div>
-                                Spenden Intervall Plan
-                            </a>-->
-							
 							<div class="sb-sidenav-menu-heading">Hilfe</div>
-                            <a class="nav-link" href="historie.html">
+                            <a class="nav-link" href="admin-tutorial.html">
                                 <div class="sb-nav-link-icon"><i class="fas fa-info"></i></div>
                                 Tutorial
                             </a>
-                            <a class="nav-link" href="faq.html">
+                            <a class="nav-link" href="admin-faq.html">
                                 <div class="sb-nav-link-icon"><i class="fas fa-question"></i></div>
                                 FAQ
                             </a>
@@ -84,9 +76,130 @@
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid">
-					
-                       
-                      
+                        <h1 class="mt-4">Vergangene Spenden</h1>
+
+                        <div class="card shadow mb-4">
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Blutgruppe</th>
+                                                <th>Priorität</th>
+                                                <th>Ort</th>
+                                                <th>Datum</th>
+                                                <th>Uhrzeit</th>
+                                                <th>Auszahlung</th>
+                                            </tr>
+                                        </thead>
+                                        <tfoot>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Blutgruppe</th>
+                                                <th>Priorität</th>
+                                                <th>Ort</th>
+                                                <th>Datum</th>
+                                                <th>Uhrzeit</th>
+                                                <th>Auszahlung</th>
+                                            </tr>
+                                        </tfoot>
+                                        <tbody>
+                                            <tr>
+                                                <td>Tiger Nixon</td>
+                                                <td>B</td>
+                                                <th>nach Aufruf</th>
+                                                <td>AKH</td>
+                                                <td>11.12.2020</td>
+                                                <td>14:00</td>
+                                                <td>€20</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Garrett Winters</td>
+                                                <td>A</td>
+                                                <th>nach Aufruf</th>
+                                                <td>AKH</td>
+                                                <td>13.12.2020</td>
+                                                <td>14:20</td>
+                                                <td>€20</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Ashton Cox</td>
+                                                <td>AB</td>
+                                                <th>nach Aufruf</th>
+                                                <td>AKH</td>
+                                                <td>15.12.2020</td>
+                                                <td>13:40</td>
+                                                <td>€20</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Cedric Kelly</td>
+                                                <td>0</td>
+                                                <th>nach Aufruf</th>
+                                                <td>AKH</td>
+                                                <td>14.12.2020</td>
+                                                <td>13:20</td>
+                                                <td>€20</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Airi Satou</td>
+                                                <td>0</td>
+                                                <th>nach Aufruf</th>
+                                                <td>AKH</td>
+                                                <td>17.12.2020</td>
+                                                <td>13:00</td>
+                                                <td>€20</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Brielle Williamson</td>
+                                                <td>B-</td>
+                                                <th>nach Aufruf</th>
+                                                <td>AKH</td>
+                                                <td>18.12.2020</td>
+                                                <td>15:20</td>
+                                                <td>€20</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Herrod Chandler</td>
+                                                <td>A-</td>
+                                                <th>nach Aufruf</th>
+                                                <td>AKH</td>
+                                                <td>19.12.2020</td>
+                                                <td>15:40</td>
+                                                <td>€20</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Rhona Davidson</td>
+                                                <td>A</td>
+                                                <th>nach Aufruf</th>
+                                                <td>AKH</td>
+                                                <td>12.12.2020</td>
+                                                <td>12:00</td>
+                                                <td>€20</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Colleen Hurst</td>
+                                                <td>B</td>
+                                                <th>nach Aufruf</th>
+                                                <td>AKH</td>
+                                                <td>17.12.2020</td>
+                                                <td>13:40</td>
+                                                <td>€20</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Sonya Frost</td>
+                                                <td>0</td>
+                                                <th>nach Aufruf</th>
+                                                <td>AKH</td>
+                                                <td>16.12.2020</td>
+                                                <td>13:20</td>
+                                                <td>€20</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </main>
                <footer class="py-4 bg-light mt-auto">
