@@ -57,7 +57,7 @@
                             <div class="sb-nav-link-icon"><i class="fas fa-history"></i></div>
                             Vergangene Spenden
                         </a>
-                       <a class="nav-link" href="admin-new-donation.html">
+                        <a class="nav-link" href="admin-new-donation.html">
                             <div class="sb-nav-link-icon"><i class="fas fa-plus-circle"></i></div>
                             Neuer Spendenaufruf
                         </a>
@@ -81,58 +81,78 @@
         <div id="layoutSidenav_content">
             <main>
                 <div class="container-fluid">
-                    <h1 class="mt-4">Neuer Spendenaufruf</h1>
+                    <h1 class="mt-4">Stammdaten</h1>
 
                     <div class="card mb-4">
                         <div class="card-body">
                             <form>
                                 <div class="form-group">
                                     <form>
-                                        <div class="form-group">
-                                            <label for="">Blutgruppe</label>
-                                            <select class="form-control" id="">
-                                                <option>A</option>
-                                                <option>B</option>
-                                                <option>AB</option>
-                                                <option>0</option>
-                                            </select>
+                                        <div class="form-row">
+                                            <div class="col">
+                                                <label for="exampleInputEmail1">Krankenhaus</label>
+                                                <input type="text" class="form-control" disabled="true"
+                                                    value="Allgemeines Krankenhaus der Stadt Wien">
+                                            </div>
+                                            <div class="col">
+                                                <label for="exampleInputEmail1">Kürzel</label>
+                                                <input type="text" class="form-control" disabled="true"
+                                                    value="AKH">
+                                            </div>
                                         </div>
-                                        <div class="form-group">
-                                            <label for="">Rhesusfaktor</label>
-                                            <select class="form-control" id="">
-                                                <option>Positiv</option>
-                                                <option>Negativ</option>
-                                            </select>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="">Beginndatum</label>
-                                            <input class="form-control" type="date" id="start" name="trip-start"
-                                                min="2021-01-01" max="2022-01-01">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="">Enddatum</label>
-                                            <input class="form-control" type="date" id="start" name="trip-start"
-                                                min="2021-01-01" max="2022-01-01">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="exampleFormControlInput1">Benötigte Spender</label>
-                                            <input type="number" class="form-control" id="exampleFormControlInput1">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="exampleFormControlTextarea1">Beschreibung</label>
-                                            <textarea class="form-control" id="exampleFormControlTextarea1"
-                                                rows="3"></textarea>
-                                        </div>
-                                        <br>
                                     </form>
-                                    <button type="submit" class="btn btn-danger">Erstellen</button>
+
+
+                                </div>
+
+                                <form>
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label for="inputEmail4">Email</label>
+                                            <input type="email" class="form-control" disabled="true"
+                                                value="akh@akhwien.at">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="inputPassword4">Passwort</label>
+                                            <input type="password" class="form-control" disabled="true"
+                                                id="inputPassword4" value="******">
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label for="inputEmail4">Telefonnummer</label>
+                                            <input type="text" class="form-control" disabled="true"
+                                                value="01 404000">
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label for="inputAddress">Addresse</label>
+                                            <input type="text" class="form-control" id="inputAddress"
+                                               value="Währinger Gürtel 18-20" disabled="true">
+                                        </div>
+                                        <div class="form-group col-md-2">
+                                            <label for="inputAddress">Stadt</label>
+                                            <input type="text" class="form-control" id="city"
+                                               value="Wien" disabled="true">
+                                        </div>
+
+                                        <div class="form-group col-md-2">
+                                            <label for="inputZip">PLZ</label>
+                                            <input type="text" class="form-control" id="inputZip" value="1090" disabled="true">
+                                        </div>
+                                    </div>
+                                </form>
+
+                                <br><br>
+                                <button type="submit" class="btn btn-danger">Speichern</button>
                             </form>
                         </div>
                     </div>
 
                 </div>
             </main>
-            
+
             <footer class="py-4 bg-light mt-auto">
                 <div class="container-fluid">
                     <div class="d-flex align-items-center justify-content-between small">
