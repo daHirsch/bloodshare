@@ -1,16 +1,103 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta http-equiv="refresh" content="0;url=dist/index.html">
-    <title>SB Admin</title>
-    <script language="javascript">
-        window.location.href = "dist/index.html"
-    </script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Bloodshare - landing page</title>
+
+	<!-- Bootstrap CSS bundle -->
+	<link href="dist/css/styles.css" rel="stylesheet">
 </head>
 
 <body>
-    Go to <a href="dist/index.html">/dist/index.html</a>
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="dist/index.html">Bloodshare</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+				aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="dist/index.html">Home
+							<span class="sr-only">(current)</span>
+						</a>
+					</li>
+					<!-- TODO: make the links below become fragments pointing to the lower written <section>-s! -->
+					<li class="nav-item">
+						<a class="nav-link" href="#about_us">Über uns</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="dist/login.html">Anmeldung</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<header class="container-fluid text-center">
+		<img class="rounded img img-fluid" src="dist/assets/AKH_building.jpg" alt="AKH Wien"></img>
+	</header>
+
+	<!-- Content section -->
+	<section class="py-4">
+		<div class="container">
+			<a name="about_us"><h1>Über uns</h1></a>
+			<p class="lead">
+				Wir sind eine Gruppe junger und hilfsbereiter Menschen!
+				Durch die Zusammenarbeit mit dem Wiener AKH Spital ermöglichen wir einen reibungslosen und kompetenten Ablauf
+				des Blutspendeverfahren!
+				<br>
+			</p>
+		</div>
+	</section>
+	
+	<!-- Content section -->
+	<section class="py-5">
+		<div class="container">
+			<h1>Unser Ziel</h1>
+			<p class="lead"><i>"Ob nach einem Unfall, der Geburt oder für Patient_innen mit einer schweren Krankheit – in
+					Österreich wird alle 90 Sekunden eine Blutkonserve benötigt.
+					Das sind fast 1.000 Blutkonserven am Tag. Blut ist das Notfallmedikament Nr. 1 und kann nicht künstlich
+					hergestellt werden."
+				</i></p>
+			<p class="lead">
+				Aus genau diesen Gründen wollen wir mit unserem Service den Spendern den Prozess erleichtern und Diese ebenso
+				belohnen für Ihre wahrhaftige Heldentat!
+			</p>
+		</div>
+	</section>
+
+	<!-- Content section -->
+	<section class="py-4">
+		<div class="container">
+			<h1>Unsere Vision</h1>
+			<p class="lead">
+				“Bloodshare’s” Vision ist es eine Plattform aufzubauen, welche es Leuten ermöglicht möglichst einfach,
+				Teil des Blutspendeverfahrens zu werden und somit einen wichtigen Beitrag zur Rettung von Leben zu leisten.
+				Wir sind der Meinung, dass solches Engagement auch belohnt werden sollte und helfen den Spendern daher mit
+				finanziellen Mitteln.
+			</p>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="py-5 bg-dark">
+		<div class="container">
+			<p class="m-0 text-center text-white">Copyright &copy; Bloodshare 2021</p>
+		</div>
+		<!-- /.container -->
+	</footer>
+
+	<!-- Bootstrap core JavaScript -->
+	<!-- <script src="vendor/jquery/jquery.min.js"></script> -->
+	<!-- <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+
 </body>
 
 </html>
