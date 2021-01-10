@@ -23,11 +23,11 @@
                                         <form>
                                             <div class="form-group">
                                                 <label class="small mb-1" for="inputEmailAddress">Email</label>
-                                                <input class="form-control py-4" id="inputEmailAddress" type="email" placeholder="Email Addresse" />
+                                                <input class="form-control py-4" id="email" type="email" placeholder="Email Addresse" />
                                             </div>
                                             <div class="form-group">
                                                 <label class="small mb-1" for="inputPassword">Passwort</label>
-                                                <input class="form-control py-4" id="inputPassword" type="password" placeholder="Passwort" />
+                                                <input class="form-control py-4" id="password" type="password" placeholder="Passwort" />
                                             </div>
                                             <div class="form-group">
                                                 <div class="custom-control custom-checkbox">
@@ -37,7 +37,12 @@
                                             </div>
                                             <div class="form-group d-flex align-items-center justify-content-between mt-4 mb-0">
                                                 <a class="small text-danger" href="password.html">Passwort vergessen?</a>
-                                                <a class="btn btn-danger" href="index.html">Login</a>
+                                                <a class="btn btn-danger" href="#" id="login-btn">Einloggen</a>
+                                                
+                                            </div>
+                                            <div class="d-flex p-2">
+                                                <br>
+                                                <p id="error-msg" class="text-danger" style="display: none;">Email oder Passwort wurde falsch eingegeben</p>
                                             </div>
                                         </form>
                                     </div>
@@ -67,5 +72,6 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
         <script src="js/scripts.js"></script>
+        <script src="js/login.js"></script>
     </body>
 </html>
