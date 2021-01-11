@@ -1,6 +1,6 @@
 # bloodshare
 
-Webseite-link: https://dahirsch.github.io/bloodshare/index.html
+Webseite-link: https://dahirsch.github.io/bloodshare/index.html  (Empfohlener Browser: Chrome, Edge)
 
 
 Login Daten: 
