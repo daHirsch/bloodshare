@@ -1,11 +1,13 @@
 # bloodshare
 
-Webseite-link: https://dahirsch.github.io/bloodshare/index.html  (Empfohlener Browser: Chrome, Edge)
+Webseite-link: https://dahirsch.github.io/bloodshare/index.html  (Empfohlener Browser: Google Chrome, Microsoft Edge)
 
 
 Login Daten: 
-SpenderInnen: user@bloodshare.com
-Passwort 123456
+- SpenderInnen: 
+  - E-Mail: user@bloodshare.com
+  - Passwort: 123456
 
-MitarbeiterInnen: Innen: admin@bloodshare.com
-Passwort 123456
+- MitarbeiterInnen:
+  - E-Mail: admin@bloodshare.com
+  - Passwort: 123456
